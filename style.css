@@ -1,0 +1,156 @@
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+/* navigation bar */
+
+.navbar {
+    padding: 10px 20px;
+}
+
+.navbar-brand img {
+    border-radius: 50%;
+    background-color: white;
+    padding: 3px;
+}
+
+.nav-link {
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.nav-link:hover {
+    color: #59b7e9;
+}
+
+
+/* the main backgroud */
+
+.main-background {
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.15),
+        rgba(0, 0, 0, 0.15)),
+        url("https://cdn.phototourl.com/member/2026-11-10-fcb60e43-ea92-488a-ae98-e3e8e3bed349.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    min-height: 550px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 40px 15px;
+}
+
+
+/* content panel */
+
+.content-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-box {
+    background-color: #f8f9fa;
+    width: 100%;
+    max-width: 850px;
+
+    padding: 40px 50px;
+
+    border-radius: 4px;
+}
+
+.content-box h1 {
+    font-size: 26px;
+    text-align: center;
+    margin-bottom: 25px;
+    color: #343a40;
+}
+
+.content-box p {
+    font-size: 14px;
+    line-height: 1.7;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+
+/*contact page */
+
+.contact-box {
+    max-width: 650px;
+    padding: 50px;
+}
+
+.contact-box h1 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.contact-box h4 {
+    font-size: 19px;
+    font-weight: normal;
+    text-align: center;
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+
+.contact-info {
+    font-size: 17px !important;
+    font-style: italic;
+}
+
+
+/* footer */
+
+.footer {
+    background-color: #212529;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 13px;
+}
+
+
+/* for miobile size thing */
+
+@media (max-width: 768px) {
+
+    .main-background {
+        min-height: 550px;
+        padding: 30px 12px;
+    }
+
+    .content-box {
+        padding: 30px 22px;
+    }
+
+    .content-box h1 {
+        font-size: 22px;
+    }
+
+    .content-box p {
+        font-size: 13px;
+    }
+
+    .contact-box h4 {
+        font-size: 17px;
+    }
+
+    .contact-info {
+        font-size: 15px !important;
+    }
+
+}
